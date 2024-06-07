@@ -2,6 +2,7 @@ import React from 'react';
 import './footer.css'
 import video from '../../Asset/vid.mp4'
 import { FiSend } from "react-icons/fi"
+import { MdTravelExplore } from "react-icons/md"
 
 const Footer = () => {
     return (
@@ -24,6 +25,16 @@ const Footer = () => {
                         </button>
                     </div>
 
+                </div>
+
+                <div className="footerCard flex">
+                     <div className="footerIntro flex">
+                        <div className="logoDiv">
+                            <a href="#" className='logo flex'>
+                            <MdTravelExplore className="icon" /> Travel.
+                            </a>
+                        </div>
+                     </div>
                 </div>
             </div>
 
